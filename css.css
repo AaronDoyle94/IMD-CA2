@@ -8,6 +8,10 @@
   #section42 {padding-top:5px;height:auto;color: #000000; background-color: #80bfff;}
   #section5 {padding-top:5px;height:auto;color: #000000; background-color: #4da6ff;}
   
+  .container{
+	  width: 90%!important;
+  }
+  
   .containerbig{
 	  width: 80%;
   }
@@ -129,25 +133,6 @@
   height: 100%;
 }
 
-
-.contact-panel ul {
-    list-style-type: none;
-}
-
-.contact-panel tr, th, td {
-    vertical-align: top;
-    padding-top: 0;
-}
-
-.contact-inner-left {
-	text-align: left;
-}
-
-.contact-inner-right {
-	text-align: right;
-}
-
-
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -189,3 +174,10 @@
   opacity: 1;
   right: 0;
 }
+
+.table{
+   border: 0px;
+   width: 95%;
+   border-color: #4da6ff;
+}
+
