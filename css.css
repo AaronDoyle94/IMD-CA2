@@ -1,12 +1,30 @@
   body {
       position: relative; 
   }
-  #section1 {padding-top:5px;height:auto;color: #000000; background-color: #80bfff;}
-  #section2 {padding-top:5px;height:auto;color: #000000; background-color: #4da6ff;}
-  #section3 {padding-top:5px;height:auto;color: #000000; background-color: #80bfff;}
-  #section41 {padding-top:5px;height:auto;color: #000000; background-color: #4da6ff;}
-  #section42 {padding-top:5px;height:auto;color: #000000; background-color: #80bfff;}
-  #section5 {padding-top:5px;height:auto;color: #000000; background-color: #4da6ff;}
+  #section1 {padding-top:5px;height:auto;color: #000000; background-color: #ffffff;}
+  #section2 {padding-top:5px;height:auto;color: #000000; background-color: #f2f2f2;}
+  #section3 {padding-top:5px;height:auto;color: #000000; background-color: #ffffff;}
+  #section41 {padding-top:5px;height:auto;color: #000000; background-color: #f2f2f2;}
+  #section42 {padding-top:5px;height:auto;color: #000000; background-color: #ffffff;}
+  #section5 {padding-top:5px;height:auto;color: #000000; background-color: #f2f2f2;}
+  
+  
+  .about1{
+	
+	
+  }
+  
+  
+  .about2.aboutCarousel{
+		width: 75%;
+		height: auto;
+		float: right;
+		margin-top: 20px;
+		margin-right: 45px;
+		margin-bottom:2.5%;
+	  
+  }
+  
   
   .container{
 	  width: 90%!important;
@@ -21,6 +39,7 @@
   }
   
   .banner {
+	text
     color: #000000;
     margin: 0;
     height: 225px;
@@ -31,9 +50,10 @@
 	
 	.socialbanner {
 	padding-top: 0.2em;
-    margin: 0;
+    margin: auto;
     height: 70px;
 	background-color: #4da6ff;
+	text-align: center;
 	}
 	
 	
@@ -59,7 +79,7 @@
 }
 
 .banner-txt {
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -127,10 +147,25 @@
  
 .intrinsic-container iframe {
   position: absolute;
+  justify-content: center;
   top:0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.youtube-div{
+	width: 75%;
+	height: 75%;
+	margin:auto;
+	
+}
+
+.tableau-div{
+	width: 75%;
+	height: 75%;
+	margin:auto;
+	
 }
 
 .button {
@@ -147,7 +182,7 @@
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  float: right;
+  float: left;
 }
 
 .button span {
@@ -181,3 +216,12 @@
    border-color: #4da6ff;
 }
 
+.picture-left img{
+	width: 100%;
+	height: 100%;
+}
+
+.picture-right img{
+	width: 100%;
+	height: 100%;
+}

@@ -11,6 +11,7 @@ ul.social-network {
 	margin-left:0 !important;
 	padding: 0;
 }
+
 ul.social-network li {
 	display: inline;
 	margin: 0 5px;
@@ -46,6 +47,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 .social-circle li a {
 	display:inline-block;
+	float: center;
 	position:relative;
 	margin:0 auto 0 auto;
 	-moz-border-radius:50%;
