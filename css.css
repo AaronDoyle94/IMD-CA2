@@ -9,6 +9,24 @@
   #section5 {padding-top:5px;height:auto;color: #000000; background-color: #f2f2f2;}
   
   
+  .panel-title{
+    background-color: #101010;
+    color: #fff;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 1s;
+}
+
+.panel-default>.panel-heading {
+    padding: 0px;
+}
+  
+  
+
+  
   .education-container{
 		text-align:center;
   }
